@@ -6,13 +6,13 @@ Minikube needs kubectl to manage the cluster.
 
  macOS:
 
-  ## bash  ##
+  bash 
   brew install kubectl
   
 
  Windows (PowerShell):
 
-  ## powershell ##
+  powershell 
   choco install kubernetes-cli
   
 
@@ -20,13 +20,13 @@ Minikube needs kubectl to manage the cluster.
 
  macOS (Homebrew):
 
-  ## bash ##
+  bash 
   brew install minikube
   
 
  Windows (Chocolatey):
 
-  ## powershell ##
+  powershell
   choco install minikube
   
  Linux 
@@ -38,7 +38,7 @@ Minikube needs kubectl to manage the cluster.
 
 Make sure Docker Desktop is running, then:
 
-## bash ##
+bash 
 minikube start --driver=docker
 
 
@@ -48,7 +48,7 @@ This will spin up a local Kubernetes cluster using Docker containers as nodes �
 
  🔍 Verify Installation
 
-## bash  ##
+bash
 minikube status
 kubectl get nodes
 
@@ -59,7 +59,7 @@ You should see a running node in the Ready state.
 
  ⚙️ Optional: Enable Dashboard
 
-## bash ##
+bash
 minikube dashboard
 
 
@@ -69,7 +69,7 @@ This opens the Kubernetes dashboard in your browser.
 
  🧼 Stop / Delete Cluster (when needed)
 
-## bash ##
+bash
 minikube stop
 minikube delete
 
